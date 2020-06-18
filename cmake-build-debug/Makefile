@@ -123,6 +123,33 @@ Hadamard/fast:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/build
 .PHONY : Hadamard/fast
 
+Complex/Complex.o: Complex/Complex.cpp.o
+
+.PHONY : Complex/Complex.o
+
+# target to build an object file
+Complex/Complex.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o
+.PHONY : Complex/Complex.cpp.o
+
+Complex/Complex.i: Complex/Complex.cpp.i
+
+.PHONY : Complex/Complex.i
+
+# target to preprocess a source file
+Complex/Complex.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.i
+.PHONY : Complex/Complex.cpp.i
+
+Complex/Complex.s: Complex/Complex.cpp.s
+
+.PHONY : Complex/Complex.s
+
+# target to generate assembly for a file
+Complex/Complex.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
+.PHONY : Complex/Complex.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Hadamard"
+	@echo "... Complex/Complex.o"
+	@echo "... Complex/Complex.i"
+	@echo "... Complex/Complex.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h">
+			<Option target="Hadamard"/>
+		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/main.cpp">
 			<Option target="Hadamard"/>
 		</Unit>

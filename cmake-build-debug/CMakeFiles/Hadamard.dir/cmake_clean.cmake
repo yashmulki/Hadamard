@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hadamard.dir/main.cpp.o"
+  "CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
   "Hadamard.pdb"
   "Hadamard"
 )

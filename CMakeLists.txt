@@ -3,4 +3,4 @@ project(Hadamard)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Hadamard main.cpp)
+add_executable(Hadamard main.cpp Complex/Complex.h Complex/Complex.cpp)
