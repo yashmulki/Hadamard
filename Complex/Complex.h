@@ -24,12 +24,12 @@ namespace hmd {
 
         Complex(double real, double imaginary);
 
-
         Complex operator+(const Complex& b); // Overload adding
         Complex operator*(const Complex& b); // Multiplying
         Complex operator-(const Complex& b); // Subtracting
         Complex operator/(const Complex& b); // Dividing
 
+        Complex conjugate() const;
         double modulus() const;
 
         std::pair<double, double> polarRepresentation();

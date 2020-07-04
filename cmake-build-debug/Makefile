@@ -150,6 +150,33 @@ Complex/Complex.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
 .PHONY : Complex/Complex.cpp.s
 
+Matrix/ComplexMatrix.o: Matrix/ComplexMatrix.cpp.o
+
+.PHONY : Matrix/ComplexMatrix.o
+
+# target to build an object file
+Matrix/ComplexMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.o
+.PHONY : Matrix/ComplexMatrix.cpp.o
+
+Matrix/ComplexMatrix.i: Matrix/ComplexMatrix.cpp.i
+
+.PHONY : Matrix/ComplexMatrix.i
+
+# target to preprocess a source file
+Matrix/ComplexMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.i
+.PHONY : Matrix/ComplexMatrix.cpp.i
+
+Matrix/ComplexMatrix.s: Matrix/ComplexMatrix.cpp.s
+
+.PHONY : Matrix/ComplexMatrix.s
+
+# target to generate assembly for a file
+Matrix/ComplexMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.s
+.PHONY : Matrix/ComplexMatrix.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... Complex/Complex.o"
 	@echo "... Complex/Complex.i"
 	@echo "... Complex/Complex.s"
+	@echo "... Matrix/ComplexMatrix.o"
+	@echo "... Matrix/ComplexMatrix.i"
+	@echo "... Matrix/ComplexMatrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

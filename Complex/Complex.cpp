@@ -44,6 +44,9 @@ Complex Complex::operator/(const hmd::Complex &b) {
     return Complex(realComponent/modulusSquared, imaginaryComponent/modulusSquared);
 }
 
+Complex Complex::conjugate() const {
+    return Complex(real, -1*imaginary);
+}
 
 double Complex::modulus() const {
     return sqrt(pow(real,2) + pow(imaginary, 2));
