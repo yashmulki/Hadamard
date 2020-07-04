@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hadamard.dir/main.cpp.o"
   "CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
-  "CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.o"
+  "CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o"
   "Hadamard.pdb"
   "Hadamard"
 )

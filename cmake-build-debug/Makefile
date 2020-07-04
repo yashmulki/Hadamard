@@ -150,32 +150,32 @@ Complex/Complex.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
 .PHONY : Complex/Complex.cpp.s
 
-Matrix/ComplexMatrix.o: Matrix/ComplexMatrix.cpp.o
+HmdVector/HmdVector.o: HmdVector/HmdVector.cpp.o
 
-.PHONY : Matrix/ComplexMatrix.o
+.PHONY : HmdVector/HmdVector.o
 
 # target to build an object file
-Matrix/ComplexMatrix.cpp.o:
-	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.o
-.PHONY : Matrix/ComplexMatrix.cpp.o
+HmdVector/HmdVector.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o
+.PHONY : HmdVector/HmdVector.cpp.o
 
-Matrix/ComplexMatrix.i: Matrix/ComplexMatrix.cpp.i
+HmdVector/HmdVector.i: HmdVector/HmdVector.cpp.i
 
-.PHONY : Matrix/ComplexMatrix.i
+.PHONY : HmdVector/HmdVector.i
 
 # target to preprocess a source file
-Matrix/ComplexMatrix.cpp.i:
-	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.i
-.PHONY : Matrix/ComplexMatrix.cpp.i
+HmdVector/HmdVector.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.i
+.PHONY : HmdVector/HmdVector.cpp.i
 
-Matrix/ComplexMatrix.s: Matrix/ComplexMatrix.cpp.s
+HmdVector/HmdVector.s: HmdVector/HmdVector.cpp.s
 
-.PHONY : Matrix/ComplexMatrix.s
+.PHONY : HmdVector/HmdVector.s
 
 # target to generate assembly for a file
-Matrix/ComplexMatrix.cpp.s:
-	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Matrix/ComplexMatrix.cpp.s
-.PHONY : Matrix/ComplexMatrix.cpp.s
+HmdVector/HmdVector.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s
+.PHONY : HmdVector/HmdVector.cpp.s
 
 main.o: main.cpp.o
 
@@ -216,9 +216,9 @@ help:
 	@echo "... Complex/Complex.o"
 	@echo "... Complex/Complex.i"
 	@echo "... Complex/Complex.s"
-	@echo "... Matrix/ComplexMatrix.o"
-	@echo "... Matrix/ComplexMatrix.i"
-	@echo "... Matrix/ComplexMatrix.s"
+	@echo "... HmdVector/HmdVector.o"
+	@echo "... HmdVector/HmdVector.i"
+	@echo "... HmdVector/HmdVector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
