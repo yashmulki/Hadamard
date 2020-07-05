@@ -7,7 +7,6 @@
 
 using namespace hmd;
 
-
 // Addition of two hmd vectors
 HmdVector HmdVector::operator+(const HmdVector &b) {
     unsigned long myLen = elements.size();
@@ -39,12 +38,7 @@ HmdVector HmdVector::scalarMultiply(Complex scalar) {
 }
 
 HmdVector HmdVector::additiveInverse() {
-    unsigned long myLen = elements.size();
-    std::vector<Complex> result;
-    for (int i = 0; i < myLen; i++) {
-        result.push_back(Complex(-1,0) * elements.at(i));
-    }
-    return HmdVector(result);
+    return scalarMultiply(Complex(-1,0));
 }
 
 std::string HmdVector::description() {

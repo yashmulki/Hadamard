@@ -86,6 +86,12 @@
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h">
 			<Option target="Hadamard"/>
 		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h">
+			<Option target="Hadamard"/>
+		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp">
 			<Option target="Hadamard"/>
 		</Unit>

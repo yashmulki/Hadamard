@@ -150,6 +150,33 @@ Complex/Complex.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
 .PHONY : Complex/Complex.cpp.s
 
+HmdMatrix/HmdMatrix.o: HmdMatrix/HmdMatrix.cpp.o
+
+.PHONY : HmdMatrix/HmdMatrix.o
+
+# target to build an object file
+HmdMatrix/HmdMatrix.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o
+.PHONY : HmdMatrix/HmdMatrix.cpp.o
+
+HmdMatrix/HmdMatrix.i: HmdMatrix/HmdMatrix.cpp.i
+
+.PHONY : HmdMatrix/HmdMatrix.i
+
+# target to preprocess a source file
+HmdMatrix/HmdMatrix.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.i
+.PHONY : HmdMatrix/HmdMatrix.cpp.i
+
+HmdMatrix/HmdMatrix.s: HmdMatrix/HmdMatrix.cpp.s
+
+.PHONY : HmdMatrix/HmdMatrix.s
+
+# target to generate assembly for a file
+HmdMatrix/HmdMatrix.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s
+.PHONY : HmdMatrix/HmdMatrix.cpp.s
+
 HmdVector/HmdVector.o: HmdVector/HmdVector.cpp.o
 
 .PHONY : HmdVector/HmdVector.o
@@ -216,6 +243,9 @@ help:
 	@echo "... Complex/Complex.o"
 	@echo "... Complex/Complex.i"
 	@echo "... Complex/Complex.s"
+	@echo "... HmdMatrix/HmdMatrix.o"
+	@echo "... HmdMatrix/HmdMatrix.i"
+	@echo "... HmdMatrix/HmdMatrix.s"
 	@echo "... HmdVector/HmdVector.o"
 	@echo "... HmdVector/HmdVector.i"
 	@echo "... HmdVector/HmdVector.s"
