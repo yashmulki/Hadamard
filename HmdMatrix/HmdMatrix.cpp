@@ -83,7 +83,7 @@ bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
 
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++) {
-            if (elements.at(row).at(cols) == b.elements.at(row).at(cols)) {
+            if (elements.at(row).at(col) == b.elements.at(row).at(col)) {
                 // They are the same
             } else {
                 return false;
@@ -96,7 +96,8 @@ bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
 }
 
 bool HmdMatrix::isHermitian() {
-    return transpose().conjugate() == *this;
+    if (elements.size() != elements.at(0).size()) return false;
+    return adjoint() == *this;
 }
 
 HmdMatrix HmdMatrix::conjugate() {

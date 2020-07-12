@@ -30,7 +30,7 @@ int main() {
 
     hmd::HmdMatrix first(data);
 
-    std::cout << first.transpose().description();
+    std::cout << first.isHermitian();
     std::cout << std::endl;
 
 //    std::cout << "Please enter the number of rows and columns" << std::endl;
