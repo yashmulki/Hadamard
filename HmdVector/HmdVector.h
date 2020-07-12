@@ -8,6 +8,7 @@
 #include <vector>
 #include <string>
 #include "../Complex/Complex.h"
+#include "../HmdMatrix/HmdMatrix.h"
 
 namespace hmd {
 
@@ -20,7 +21,13 @@ namespace hmd {
         HmdVector (std::vector<Complex> elements): elements(elements) {};
 
         HmdVector operator+(const HmdVector& b); // Adding in C^n
-        HmdVector scalarMultiply(Complex scalar);
+        HmdVector operator-(const HmdVector& b); // Adding in C^n
+        HmdVector scalarMultiply(Complex scalar) const;
+        HmdVector action(HmdMatrix matrix);
+        Complex operator*(HmdVector other);
+        double norm();
+        double distanceFrom(HmdVector other);
+
         HmdVector additiveInverse();
 
         std::string description();

@@ -24,6 +24,7 @@ namespace hmd {
 
         Complex(double real, double imaginary);
 
+        bool operator==(const Complex& b);
         Complex operator+(const Complex& b); // Overload adding
         Complex operator*(const Complex& b); // Multiplying
         Complex operator-(const Complex& b); // Subtracting
@@ -34,7 +35,7 @@ namespace hmd {
 
         std::pair<double, double> polarRepresentation();
 
-        std::string description();
+        std::string description() const;
 
         };
 

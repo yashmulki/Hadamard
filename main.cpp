@@ -2,28 +2,99 @@
 #include <vector>
 #include "Complex/Complex.h"
 #include "HmdVector/HmdVector.h"
+#include "HmdMatrix/HmdMatrix.h"
 
 int main() {
+//
+    int num_rows;
+    int num_cols;
+    std::cout << "Please enter the number of rows and columns" << std::endl;
+    std::cin >> num_rows;
+    std::cin >> num_cols;
 
-    int num_elements;
-    std::cout << "Please enter the number of elements" << std::endl;
-    std::cin >> num_elements;
-
-    std::vector<hmd::Complex> data;
+    std::vector<std::vector<hmd::Complex>> data;
 
     double real;
     double imaginary;
 
-    for (int i = 0; i < num_elements; i++) {
-        std::cin >> real;
-        std::cin >> imaginary;
-        data.push_back(hmd::Complex(real, imaginary));
+    for (int r = 0; r < num_rows; r++) {
+        std::vector<hmd::Complex> row;
+        for (int c = 0; c < num_cols; c++) {
+            std::cin >> real;
+            std::cin >> imaginary;
+            std::cin.clear();
+            row.push_back(hmd::Complex(real, imaginary));
+        }
+        data.push_back(row);
     }
 
-    hmd::HmdVector vec1 = hmd::HmdVector(data);
-    hmd::HmdVector smultiply = vec1.scalarMultiply(hmd::Complex(2, 0));
+    hmd::HmdMatrix first(data);
 
-    std::cout << smultiply.description();
+    std::cout << first.transpose().description();
+    std::cout << std::endl;
+
+//    std::cout << "Please enter the number of rows and columns" << std::endl;
+//    std::cin >> num_rows;
+//    std::cin >> num_cols;
+//
+//
+//    std::vector<std::vector<hmd::Complex>> data2;
+//
+//    double real2;
+//    double imaginary2;
+//
+//    for (int r = 0; r < num_rows; r++) {
+//        std::vector<hmd::Complex> row;
+//        for (int c = 0; c < num_cols; c++) {
+//            std::cin >> real2;
+//            std::cin >> imaginary2;
+//            row.push_back(hmd::Complex(real2, imaginary2));
+//        }
+//        data2.push_back(row);
+//    }
+//
+//    hmd::HmdMatrix second = hmd::HmdMatrix(data2);
+//    std::cout << second.description();
+//    std::cout << std::endl;
+//
+//    hmd::HmdMatrix product = first * second;
+//
+//    std::cout << product.description();
+
+//    int num_rows;
+//    std::cout << "Please enter the number of rows" << std::endl;
+//    std::cin >> num_rows;
+//
+//    std::vector<hmd::Complex> data;
+//    double real;
+//    double imaginary;
+//
+//    for (int r = 0; r < num_rows; r++) {
+//        std::cin >> real;
+//        std::cin >> imaginary;
+//        data.push_back(hmd::Complex(real, imaginary));
+//    }
+//
+//    int num_rows_2;
+//    std::cout << "Please enter the number of rows" << std::endl;
+//    std::cin >> num_rows_2;
+//
+//    std::vector<hmd::Complex> data2;
+//    for (int r = 0; r < num_rows_2; r++) {
+//        std::cin >> real;
+//        std::cin >> imaginary;
+//        data2.push_back(hmd::Complex(real, imaginary));
+//    }
+//
+//    hmd::HmdVector vec1 = hmd::HmdVector(data);
+//    hmd::HmdVector vec2 = hmd::HmdVector(data2);
+//
+//    hmd::HmdVector difference = vec1 - vec2;
+//    std::cout << difference.description();
+//    std::cout << vec1.distanceFrom(vec2);
+
+//    double distance = vec1.distanceFrom(vec2);
+//    std::cout << distance;
 
     //  int num_qubits;
 

@@ -3,6 +3,7 @@
 //
 
 #include <string>
+#include <math.h>
 #include "HmdVector.h"
 
 using namespace hmd;
@@ -28,13 +29,66 @@ HmdVector HmdVector::operator+(const HmdVector &b) {
     return HmdVector(result);
 }
 
-HmdVector HmdVector::scalarMultiply(Complex scalar) {
+HmdVector HmdVector::operator-(const hmd::HmdVector &b)  {
+    return HmdVector(this->elements) + b.scalarMultiply(Complex(-1,0));
+}
+
+HmdVector HmdVector::scalarMultiply(Complex scalar) const {
     unsigned long myLen = elements.size();
     std::vector<Complex> result;
     for (int i = 0; i < myLen; i++) {
         result.push_back(scalar * elements.at(i));
     }
     return HmdVector(result);
+}
+
+HmdVector HmdVector::action(HmdMatrix matrix) {
+    unsigned long myLen = elements.size();
+    unsigned long matrixRows = matrix.elements.size();
+    unsigned long matrixCols = matrix.elements.at(0).size();
+
+    std::vector<Complex> result;
+
+    if (matrixCols != myLen) {
+        return HmdVector(elements);
+    }
+
+    for (int matRow = 0; matRow < matrixRows; matRow++) {
+        Complex rowVal = Complex(0,0);
+        for (int i = 0; i < myLen; i++) {
+            rowVal = rowVal + (matrix.elements.at(matRow).at(i) * elements.at(i));
+        }
+        result.push_back(rowVal);
+    }
+    return result;
+}
+
+Complex HmdVector::operator*(HmdVector other) {
+    unsigned long size = elements.size();
+    unsigned long otherSize = other.elements.size();
+
+    Complex innerProduct = Complex(0,0);
+
+    if (size != otherSize) {
+        return Complex(0,0);
+    }
+
+    for (int i = 0; i < size; i++) {
+        innerProduct = innerProduct + (elements.at(i).conjugate()*other.elements.at(i));
+    }
+
+    return innerProduct;
+
+}
+
+double HmdVector::norm() {
+    Complex result = HmdVector(this->elements) * HmdVector(this->elements);
+    return sqrt(result.getReal());
+}
+
+double HmdVector::distanceFrom(hmd::HmdVector other) {
+    HmdVector difference = HmdVector(this->elements) - HmdVector(other.elements);
+    return difference.norm();
 }
 
 HmdVector HmdVector::additiveInverse() {

@@ -12,16 +12,23 @@
 namespace hmd {
 
     class HmdMatrix {
-    private:
-        std::vector<std::vector<Complex>> elements;
     public:
+
+        std::vector<std::vector<Complex>> elements;
         HmdMatrix (std::vector<std::vector<Complex>> elements): elements(elements) {};
 
+        bool operator==(const HmdMatrix& b);
         HmdMatrix operator+(const HmdMatrix& b); // Adding in C^n
+        HmdMatrix operator*(const HmdMatrix& b); // Matrix multiplication
         HmdMatrix scalarMultiply(Complex scalar);
+        bool isHermitian();
+        HmdMatrix conjugate();
+        HmdMatrix transpose();
+        HmdMatrix adjoint();
+
         HmdMatrix additiveInverse();
 
-        std::string description();
+        std::string description() const;
     };
 
 }

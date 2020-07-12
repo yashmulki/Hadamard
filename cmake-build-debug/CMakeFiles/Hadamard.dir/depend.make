@@ -4,11 +4,17 @@
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o: ../Complex/Complex.cpp
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o: ../Complex/Complex.h
 
+CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../HmdMatrix/HmdMatrix.cpp
+CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../HmdMatrix/HmdMatrix.h
+
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdMatrix/HmdMatrix.h
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdVector/HmdVector.cpp
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdVector/HmdVector.h
 
 CMakeFiles/Hadamard.dir/main.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdMatrix/HmdMatrix.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdVector/HmdVector.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../main.cpp
 

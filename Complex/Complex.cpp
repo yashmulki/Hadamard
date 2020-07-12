@@ -22,6 +22,13 @@ double Complex::getImaginary() const {
     return imaginary;
 }
 
+bool Complex::operator==(const hmd::Complex &b) {
+    if (real == b.real && imaginary == b.imaginary) {
+        return true;
+    }
+    return false;{}
+}
+
 Complex Complex::operator+(const Complex &b) {
     return Complex(real+b.getReal(), imaginary+b.getImaginary());
 }
@@ -57,7 +64,7 @@ std::pair<double, double> Complex::polarRepresentation() {
     return std::make_pair(p, theta);
 }
 
-std::string Complex::description() {
+std::string Complex::description() const {
     return std::to_string(real) + " + " + std::to_string(imaginary) + "i";
 }
 
