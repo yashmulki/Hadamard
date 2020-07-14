@@ -22,10 +22,11 @@ namespace hmd {
         HmdMatrix operator*(const HmdMatrix& b); // Matrix multiplication
         HmdMatrix scalarMultiply(Complex scalar);
         bool isHermitian();
+        bool isUnitary();
         HmdMatrix conjugate();
         HmdMatrix transpose();
         HmdMatrix adjoint();
-
+        HmdMatrix tensorProduct(HmdMatrix other);
         HmdMatrix additiveInverse();
 
         std::string description() const;

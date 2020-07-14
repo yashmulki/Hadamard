@@ -56,9 +56,6 @@ HmdMatrix HmdMatrix::operator*(const HmdMatrix &b) {
         for (int col = 0; col < otherCols; col++) {
             Complex item = Complex(0,0);
             for (int i = 0; i < cols; i++) {
-                std::cout << row << " " << col << " " << i << std::endl;
-                std::cout << elements.at(row).at(i).description() << std::endl;
-                std::cout << b.elements.at(i).at(col).description() << std::endl;
                 item = item + (elements.at(row).at(i)*b.elements.at(i).at(col));
             }
             rowVec.push_back(item);
@@ -67,6 +64,27 @@ HmdMatrix HmdMatrix::operator*(const HmdMatrix &b) {
     }
 
     return HmdMatrix(result);
+}
+
+HmdMatrix HmdMatrix::tensorProduct(hmd::HmdMatrix other) {
+    int rows = elements.size();
+    int cols = elements.at(0).size();
+
+    int otherRows = other.elements.size();
+    int otherCols = other.elements.at(0).size();
+
+    int combinedRows = rows * otherRows;
+    int combinedColumns = cols * otherCols;
+
+    std::vector<std::vector<Complex>> result;
+
+    for (int row = 0; row < combinedRows; row++) {
+        result.push_back(std::vector<Complex>());
+        for (int col = 0; col < combinedColumns; col++) {
+
+        }
+    }
+
 }
 
 bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
@@ -98,6 +116,27 @@ bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
 bool HmdMatrix::isHermitian() {
     if (elements.size() != elements.at(0).size()) return false;
     return adjoint() == *this;
+}
+
+bool HmdMatrix::isUnitary() {
+    HmdMatrix result = HmdMatrix(elements) * HmdMatrix(elements).adjoint();
+    int rows = result.elements.size();
+    int cols = result.elements.at(0).size();
+
+    std::cout << result.description();
+
+    for (int row = 0; row < rows; row++) {
+        for (int col = 0; col < cols; col++) {
+            if (row == col && result.elements.at(row).at(col) == Complex(1,0)) {
+                // This is expected
+            } else if (row != col && result.elements.at(row).at(col) == Complex(0,0)) {
+
+            } else {
+                return false;
+            }
+        }
+    }
+    return true;
 }
 
 HmdMatrix HmdMatrix::conjugate() {

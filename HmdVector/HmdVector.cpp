@@ -91,6 +91,16 @@ double HmdVector::distanceFrom(hmd::HmdVector other) {
     return difference.norm();
 }
 
+HmdVector HmdVector::tensorProduct(hmd::HmdVector other) {
+    std::vector<Complex> result;
+    for (int i = 0; i < elements.size(); i++) {
+        for (int j = 0; j < other.elements.size(); j++) {
+            result.push_back(elements.at(i)*other.elements.at(j));
+        }
+    }
+    return HmdVector(result);
+}
+
 HmdVector HmdVector::additiveInverse() {
     return scalarMultiply(Complex(-1,0));
 }

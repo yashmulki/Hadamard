@@ -27,6 +27,7 @@ namespace hmd {
         Complex operator*(HmdVector other);
         double norm();
         double distanceFrom(HmdVector other);
+        HmdVector tensorProduct(HmdVector other);
 
         HmdVector additiveInverse();
 

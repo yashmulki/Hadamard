@@ -12,16 +12,6 @@ utility
 string
 -
 
-/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp
-HmdMatrix.h
-/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
-string
--
-vector
--
-iostream
--
-
 /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
 vector
 -
@@ -29,4 +19,22 @@ string
 -
 ../Complex/Complex.h
 /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp
+string
+-
+math.h
+-
+HmdVector.h
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+vector
+-
+string
+-
+../Complex/Complex.h
+/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+../HmdMatrix/HmdMatrix.h
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
 
