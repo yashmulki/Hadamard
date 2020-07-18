@@ -177,6 +177,33 @@ HmdMatrix/HmdMatrix.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s
 .PHONY : HmdMatrix/HmdMatrix.cpp.s
 
+HmdMatrix/MatrixReader.o: HmdMatrix/MatrixReader.cpp.o
+
+.PHONY : HmdMatrix/MatrixReader.o
+
+# target to build an object file
+HmdMatrix/MatrixReader.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o
+.PHONY : HmdMatrix/MatrixReader.cpp.o
+
+HmdMatrix/MatrixReader.i: HmdMatrix/MatrixReader.cpp.i
+
+.PHONY : HmdMatrix/MatrixReader.i
+
+# target to preprocess a source file
+HmdMatrix/MatrixReader.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i
+.PHONY : HmdMatrix/MatrixReader.cpp.i
+
+HmdMatrix/MatrixReader.s: HmdMatrix/MatrixReader.cpp.s
+
+.PHONY : HmdMatrix/MatrixReader.s
+
+# target to generate assembly for a file
+HmdMatrix/MatrixReader.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s
+.PHONY : HmdMatrix/MatrixReader.cpp.s
+
 HmdVector/HmdVector.o: HmdVector/HmdVector.cpp.o
 
 .PHONY : HmdVector/HmdVector.o
@@ -203,6 +230,33 @@ HmdVector/HmdVector.s: HmdVector/HmdVector.cpp.s
 HmdVector/HmdVector.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s
 .PHONY : HmdVector/HmdVector.cpp.s
+
+HmdVector/VectorReader.o: HmdVector/VectorReader.cpp.o
+
+.PHONY : HmdVector/VectorReader.o
+
+# target to build an object file
+HmdVector/VectorReader.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o
+.PHONY : HmdVector/VectorReader.cpp.o
+
+HmdVector/VectorReader.i: HmdVector/VectorReader.cpp.i
+
+.PHONY : HmdVector/VectorReader.i
+
+# target to preprocess a source file
+HmdVector/VectorReader.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i
+.PHONY : HmdVector/VectorReader.cpp.i
+
+HmdVector/VectorReader.s: HmdVector/VectorReader.cpp.s
+
+.PHONY : HmdVector/VectorReader.s
+
+# target to generate assembly for a file
+HmdVector/VectorReader.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
+.PHONY : HmdVector/VectorReader.cpp.s
 
 main.o: main.cpp.o
 
@@ -246,9 +300,15 @@ help:
 	@echo "... HmdMatrix/HmdMatrix.o"
 	@echo "... HmdMatrix/HmdMatrix.i"
 	@echo "... HmdMatrix/HmdMatrix.s"
+	@echo "... HmdMatrix/MatrixReader.o"
+	@echo "... HmdMatrix/MatrixReader.i"
+	@echo "... HmdMatrix/MatrixReader.s"
 	@echo "... HmdVector/HmdVector.o"
 	@echo "... HmdVector/HmdVector.i"
 	@echo "... HmdVector/HmdVector.s"
+	@echo "... HmdVector/VectorReader.o"
+	@echo "... HmdVector/VectorReader.i"
+	@echo "... HmdVector/VectorReader.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

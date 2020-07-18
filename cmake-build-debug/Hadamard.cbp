@@ -92,10 +92,22 @@
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h">
 			<Option target="Hadamard"/>
 		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h">
+			<Option target="Hadamard"/>
+		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp">
 			<Option target="Hadamard"/>
 		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h">
 			<Option target="Hadamard"/>
 		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/main.cpp">

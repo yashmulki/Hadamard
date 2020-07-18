@@ -6,7 +6,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
   "/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
+  "/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
   "/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o"
+  "/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
   "/Users/CosmosRedshift/projects/Hadamard/main.cpp" "/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

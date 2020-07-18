@@ -109,12 +109,40 @@ CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s
 
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../HmdMatrix/MatrixReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp
+
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp > CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i
+
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s
+
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp
+
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp > CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i
+
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
+
 # Object files for target Hadamard
 Hadamard_OBJECTS = \
 "CMakeFiles/Hadamard.dir/main.cpp.o" \
 "CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o" \
 "CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o" \
-"CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
+"CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o" \
+"CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o" \
+"CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
 
 # External object files for target Hadamard
 Hadamard_EXTERNAL_OBJECTS =
@@ -123,9 +151,11 @@ Hadamard: CMakeFiles/Hadamard.dir/main.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/build.make
 Hadamard: CMakeFiles/Hadamard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Hadamard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Hadamard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hadamard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

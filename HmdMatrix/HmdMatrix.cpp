@@ -76,15 +76,51 @@ HmdMatrix HmdMatrix::tensorProduct(hmd::HmdMatrix other) {
     int combinedRows = rows * otherRows;
     int combinedColumns = cols * otherCols;
 
+    // Keep track of a matrix of matrices for each spot, where each matrix is the scalar product of A[row][col] with B
+    std::vector<std::vector<HmdMatrix>> intermediate;
+
+    for (int row = 0; row < rows; row++) {
+        std::vector<HmdMatrix> rowN;
+        for (int col = 0; col < cols; col++) {
+            rowN.push_back(other.scalarMultiply(elements.at(row).at(col)));
+        }
+        intermediate.push_back(rowN);
+    }
+
+    // "Pop" the matrices out and combine them into one
+
     std::vector<std::vector<Complex>> result;
 
     for (int row = 0; row < combinedRows; row++) {
-        result.push_back(std::vector<Complex>());
+        std::vector<Complex> rowN;
         for (int col = 0; col < combinedColumns; col++) {
 
+            // Get the row and col of target matrix
+            int matrixRowIndex = row / otherRows;
+            int matrixColIndex = col / otherCols;
+
+            // Get the row and col of target complex number in the matrix
+            int complexRowIndex = row;
+            int complexColIndex = col;
+
+            if (matrixRowIndex == 0) {
+
+            } else {
+                complexRowIndex = row % (otherRows * matrixRowIndex);
+            }
+
+            if (matrixColIndex == 0) {
+
+            } else {
+                complexColIndex = col % (otherCols * matrixColIndex);
+            }
+
+            rowN.push_back(intermediate.at(matrixRowIndex).at(matrixColIndex).elements.at(complexRowIndex).at(complexColIndex));
         }
+        result.push_back(rowN);
     }
 
+    return result;
 }
 
 bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {

@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
   "CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o"
   "CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
+  "CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
+  "CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
   "Hadamard.pdb"
   "Hadamard"
 )
