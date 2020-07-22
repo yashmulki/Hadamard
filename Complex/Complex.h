@@ -23,6 +23,7 @@ namespace hmd {
         double getImaginary() const;
 
         Complex(double real, double imaginary);
+        Complex() {};
 
         bool operator==(const Complex& b);
         Complex operator+(const Complex& b); // Overload adding

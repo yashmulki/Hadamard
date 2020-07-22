@@ -6,10 +6,30 @@
 
 #IncludeRegexTransform: 
 
+/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp
+Complex.h
+/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+cmath
+-
+string
+-
+utility
+-
+
 /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
 utility
 -
 string
+-
+
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp
+HmdMatrix.h
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+string
+-
+vector
+-
+iostream
 -
 
 /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
@@ -20,9 +40,23 @@ string
 ../Complex/Complex.h
 /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
 
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp
+MatrixReader.h
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h
+iostream
+-
+
 /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h
 HmdMatrix.h
 /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp
+string
+-
+math.h
+-
+HmdVector.h
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
 
 /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
 vector
@@ -34,9 +68,29 @@ string
 ../HmdMatrix/HmdMatrix.h
 /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
 
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp
+VectorReader.h
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+iostream
+-
+
 /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
 HmdVector.h
 /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+
+/Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp
+ParticleSystem.h
+/Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.h
+../Complex/Complex.h
+/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+../HmdVector/VectorReader.h
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+iostream
+-
+vector
+-
+
+/Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.h
 
 /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp
 QuantumBilliardBall.h
@@ -49,4 +103,20 @@ iostream
 -
 
 /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
+
+/Users/CosmosRedshift/projects/Hadamard/main.cpp
+iostream
+-
+vector
+-
+Complex/Complex.h
+/Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+HmdVector/HmdVector.h
+/Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+HmdMatrix/HmdMatrix.h
+/Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+QuantumMarbles/QuantumBilliardBall.h
+/Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
+ParticleSystem/ParticleSystem.h
+/Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.h
 

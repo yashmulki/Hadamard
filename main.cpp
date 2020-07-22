@@ -4,10 +4,11 @@
 #include "HmdVector/HmdVector.h"
 #include "HmdMatrix/HmdMatrix.h"
 #include "QuantumMarbles/QuantumBilliardBall.h"
+#include "ParticleSystem/ParticleSystem.h"
 
 int main() {
-    demos::QuantumBilliardBall billiardBall;
-    billiardBall.marbles();
+    demos::ParticleSystem particle;
+    particle.particleSystemDemo();
 
     return 0;
 }

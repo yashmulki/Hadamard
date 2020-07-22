@@ -28,6 +28,7 @@ namespace hmd {
         double norm();
         double distanceFrom(HmdVector other);
         HmdVector tensorProduct(HmdVector other);
+        HmdVector conjugate();
 
         HmdVector additiveInverse();
 

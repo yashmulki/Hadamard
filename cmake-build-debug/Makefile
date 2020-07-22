@@ -258,6 +258,33 @@ HmdVector/VectorReader.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
 .PHONY : HmdVector/VectorReader.cpp.s
 
+ParticleSystem/ParticleSystem.o: ParticleSystem/ParticleSystem.cpp.o
+
+.PHONY : ParticleSystem/ParticleSystem.o
+
+# target to build an object file
+ParticleSystem/ParticleSystem.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o
+.PHONY : ParticleSystem/ParticleSystem.cpp.o
+
+ParticleSystem/ParticleSystem.i: ParticleSystem/ParticleSystem.cpp.i
+
+.PHONY : ParticleSystem/ParticleSystem.i
+
+# target to preprocess a source file
+ParticleSystem/ParticleSystem.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.i
+.PHONY : ParticleSystem/ParticleSystem.cpp.i
+
+ParticleSystem/ParticleSystem.s: ParticleSystem/ParticleSystem.cpp.s
+
+.PHONY : ParticleSystem/ParticleSystem.s
+
+# target to generate assembly for a file
+ParticleSystem/ParticleSystem.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s
+.PHONY : ParticleSystem/ParticleSystem.cpp.s
+
 QuantumMarbles/QuantumBilliardBall.o: QuantumMarbles/QuantumBilliardBall.cpp.o
 
 .PHONY : QuantumMarbles/QuantumBilliardBall.o
@@ -336,6 +363,9 @@ help:
 	@echo "... HmdVector/VectorReader.o"
 	@echo "... HmdVector/VectorReader.i"
 	@echo "... HmdVector/VectorReader.s"
+	@echo "... ParticleSystem/ParticleSystem.o"
+	@echo "... ParticleSystem/ParticleSystem.i"
+	@echo "... ParticleSystem/ParticleSystem.s"
 	@echo "... QuantumMarbles/QuantumBilliardBall.o"
 	@echo "... QuantumMarbles/QuantumBilliardBall.i"
 	@echo "... QuantumMarbles/QuantumBilliardBall.s"

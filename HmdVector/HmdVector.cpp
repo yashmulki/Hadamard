@@ -101,6 +101,17 @@ HmdVector HmdVector::tensorProduct(hmd::HmdVector other) {
     return HmdVector(result);
 }
 
+
+
+HmdVector HmdVector::conjugate() {
+    int myLen = elements.size();
+    std::vector<Complex> result;
+    for (int i = 0; i < myLen; i++) {
+        result.push_back(elements.at(i).conjugate());
+    }
+    return HmdVector(result);
+}
+
 HmdVector HmdVector::additiveInverse() {
     return scalarMultiply(Complex(-1,0));
 }
