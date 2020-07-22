@@ -8,13 +8,33 @@ CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../HmdMatrix/HmdMatrix.cpp
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../HmdMatrix/HmdMatrix.h
 
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../HmdMatrix/MatrixReader.cpp
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../HmdMatrix/MatrixReader.h
+
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdMatrix/HmdMatrix.h
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdVector/HmdVector.cpp
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdVector/HmdVector.h
 
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.cpp
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.h
+
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdMatrix/MatrixReader.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdVector/VectorReader.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../QuantumMarbles/QuantumBilliardBall.cpp
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../QuantumMarbles/QuantumBilliardBall.h
+
 CMakeFiles/Hadamard.dir/main.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdMatrix/HmdMatrix.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/main.cpp.o: ../QuantumMarbles/QuantumBilliardBall.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../main.cpp
 

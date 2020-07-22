@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
   "CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
   "CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
+  "CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o"
   "Hadamard.pdb"
   "Hadamard"
 )

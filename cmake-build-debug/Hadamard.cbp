@@ -110,6 +110,12 @@
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h">
 			<Option target="Hadamard"/>
 		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h">
+			<Option target="Hadamard"/>
+		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/main.cpp">
 			<Option target="Hadamard"/>
 		</Unit>

@@ -258,6 +258,33 @@ HmdVector/VectorReader.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
 .PHONY : HmdVector/VectorReader.cpp.s
 
+QuantumMarbles/QuantumBilliardBall.o: QuantumMarbles/QuantumBilliardBall.cpp.o
+
+.PHONY : QuantumMarbles/QuantumBilliardBall.o
+
+# target to build an object file
+QuantumMarbles/QuantumBilliardBall.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
+.PHONY : QuantumMarbles/QuantumBilliardBall.cpp.o
+
+QuantumMarbles/QuantumBilliardBall.i: QuantumMarbles/QuantumBilliardBall.cpp.i
+
+.PHONY : QuantumMarbles/QuantumBilliardBall.i
+
+# target to preprocess a source file
+QuantumMarbles/QuantumBilliardBall.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.i
+.PHONY : QuantumMarbles/QuantumBilliardBall.cpp.i
+
+QuantumMarbles/QuantumBilliardBall.s: QuantumMarbles/QuantumBilliardBall.cpp.s
+
+.PHONY : QuantumMarbles/QuantumBilliardBall.s
+
+# target to generate assembly for a file
+QuantumMarbles/QuantumBilliardBall.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s
+.PHONY : QuantumMarbles/QuantumBilliardBall.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -309,6 +336,9 @@ help:
 	@echo "... HmdVector/VectorReader.o"
 	@echo "... HmdVector/VectorReader.i"
 	@echo "... HmdVector/VectorReader.s"
+	@echo "... QuantumMarbles/QuantumBilliardBall.o"
+	@echo "... QuantumMarbles/QuantumBilliardBall.i"
+	@echo "... QuantumMarbles/QuantumBilliardBall.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

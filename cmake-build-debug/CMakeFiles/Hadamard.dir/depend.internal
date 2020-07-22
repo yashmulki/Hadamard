@@ -8,13 +8,33 @@ CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o
+ /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o
+ /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
+ /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+ /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp
+ /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
 CMakeFiles/Hadamard.dir/main.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
  /Users/CosmosRedshift/projects/Hadamard/main.cpp
