@@ -258,6 +258,33 @@ HmdVector/VectorReader.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
 .PHONY : HmdVector/VectorReader.cpp.s
 
+Observables/Observable.o: Observables/Observable.cpp.o
+
+.PHONY : Observables/Observable.o
+
+# target to build an object file
+Observables/Observable.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o
+.PHONY : Observables/Observable.cpp.o
+
+Observables/Observable.i: Observables/Observable.cpp.i
+
+.PHONY : Observables/Observable.i
+
+# target to preprocess a source file
+Observables/Observable.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i
+.PHONY : Observables/Observable.cpp.i
+
+Observables/Observable.s: Observables/Observable.cpp.s
+
+.PHONY : Observables/Observable.s
+
+# target to generate assembly for a file
+Observables/Observable.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s
+.PHONY : Observables/Observable.cpp.s
+
 ParticleSystem/ParticleSystem.o: ParticleSystem/ParticleSystem.cpp.o
 
 .PHONY : ParticleSystem/ParticleSystem.o
@@ -312,6 +339,33 @@ QuantumMarbles/QuantumBilliardBall.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s
 .PHONY : QuantumMarbles/QuantumBilliardBall.cpp.s
 
+Qubit/Qubit.o: Qubit/Qubit.cpp.o
+
+.PHONY : Qubit/Qubit.o
+
+# target to build an object file
+Qubit/Qubit.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o
+.PHONY : Qubit/Qubit.cpp.o
+
+Qubit/Qubit.i: Qubit/Qubit.cpp.i
+
+.PHONY : Qubit/Qubit.i
+
+# target to preprocess a source file
+Qubit/Qubit.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i
+.PHONY : Qubit/Qubit.cpp.i
+
+Qubit/Qubit.s: Qubit/Qubit.cpp.s
+
+.PHONY : Qubit/Qubit.s
+
+# target to generate assembly for a file
+Qubit/Qubit.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s
+.PHONY : Qubit/Qubit.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -363,12 +417,18 @@ help:
 	@echo "... HmdVector/VectorReader.o"
 	@echo "... HmdVector/VectorReader.i"
 	@echo "... HmdVector/VectorReader.s"
+	@echo "... Observables/Observable.o"
+	@echo "... Observables/Observable.i"
+	@echo "... Observables/Observable.s"
 	@echo "... ParticleSystem/ParticleSystem.o"
 	@echo "... ParticleSystem/ParticleSystem.i"
 	@echo "... ParticleSystem/ParticleSystem.s"
 	@echo "... QuantumMarbles/QuantumBilliardBall.o"
 	@echo "... QuantumMarbles/QuantumBilliardBall.i"
 	@echo "... QuantumMarbles/QuantumBilliardBall.s"
+	@echo "... Qubit/Qubit.o"
+	@echo "... Qubit/Qubit.i"
+	@echo "... Qubit/Qubit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

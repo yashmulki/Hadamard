@@ -5,6 +5,7 @@
 #include "ParticleSystem.h"
 #include "../Complex/Complex.h"
 #include "../HmdVector/VectorReader.h"
+#include "../Qubit/Qubit.h"
 #include <iostream>
 #include <vector>
 
@@ -33,17 +34,15 @@ void ParticleSystem::particleSystemDemo() {
 
         std::vector<hmd::Complex> base_state(num_points);
         base_state.at(num_points) = hmd::Complex(1, 0);
-
         hmd::HmdVector bra(base_state);
-        bra = bra.conjugate();
 
-        hmd::Complex amplitude = bra*ket;
+        hmd::Complex amplitude = hmd::Qubit(ket).transitionAmplitude(bra);
         std::cout << amplitude.description() << std::endl;
 
     } else {
         std::cout << "Please enter the end state vector" << std::endl;
         hmd::HmdVector bra = reader.readVector();
-        hmd::Complex amplitude = bra*ket;
+        hmd::Complex amplitude = hmd::Qubit(ket).transitionAmplitude(bra);
         std::cout << amplitude.description() << std::endl;
     }
 

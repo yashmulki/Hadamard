@@ -250,3 +250,13 @@ std::string HmdMatrix::description() const {
     return desc;
 }
 
+HmdMatrix HmdMatrix::identity(int n) {
+    std::vector<std::vector<Complex>> result;
+    for (int row = 0; row < n; row++) {
+        std::vector<Complex> column(n, Complex(0,0));
+        column.at(row) = Complex(1, 0);
+        result.push_back(column);
+    }
+    return HmdMatrix(result);
+}
+

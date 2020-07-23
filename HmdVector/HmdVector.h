@@ -23,7 +23,7 @@ namespace hmd {
         HmdVector operator+(const HmdVector& b); // Adding in C^n
         HmdVector operator-(const HmdVector& b); // Adding in C^n
         HmdVector scalarMultiply(Complex scalar) const;
-        HmdVector action(HmdMatrix matrix);
+        HmdVector action(HmdMatrix matrix, bool left = false);
         Complex operator*(HmdVector other);
         double norm();
         double distanceFrom(HmdVector other);

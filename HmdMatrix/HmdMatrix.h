@@ -30,6 +30,9 @@ namespace hmd {
         HmdMatrix additiveInverse();
 
         std::string description() const;
+
+        static HmdMatrix identity(int n);
+
     };
 
 }

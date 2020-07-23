@@ -161,6 +161,32 @@ CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp -o CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s
 
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../Qubit/Qubit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp
+
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp > CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i
+
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s
+
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../Observables/Observable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp
+
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp > CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i
+
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s
+
 # Object files for target Hadamard
 Hadamard_OBJECTS = \
 "CMakeFiles/Hadamard.dir/main.cpp.o" \
@@ -170,7 +196,9 @@ Hadamard_OBJECTS = \
 "CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o" \
 "CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o" \
 "CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o" \
-"CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o"
+"CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o" \
+"CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o" \
+"CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
 
 # External object files for target Hadamard
 Hadamard_EXTERNAL_OBJECTS =
@@ -183,9 +211,11 @@ Hadamard: CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/build.make
 Hadamard: CMakeFiles/Hadamard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Hadamard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Hadamard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hadamard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

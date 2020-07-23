@@ -24,12 +24,19 @@ CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/HmdVector.h
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.cpp
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.h
 
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../Observables/Observable.cpp
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../Observables/Observable.h
+
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../HmdMatrix/HmdMatrix.h
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../HmdVector/HmdVector.h
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../HmdVector/VectorReader.h
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../ParticleSystem/ParticleSystem.cpp
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../ParticleSystem/ParticleSystem.h
+CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../Qubit/Qubit.h
 
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdMatrix/HmdMatrix.h
@@ -39,9 +46,18 @@ CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../HmdVector/V
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../QuantumMarbles/QuantumBilliardBall.cpp
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../QuantumMarbles/QuantumBilliardBall.h
 
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../Complex/Complex.h
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../Qubit/Qubit.cpp
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../Qubit/Qubit.h
+
 CMakeFiles/Hadamard.dir/main.cpp.o: ../Complex/Complex.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdMatrix/HmdMatrix.h
+CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdMatrix/MatrixReader.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdVector/HmdVector.h
+CMakeFiles/Hadamard.dir/main.cpp.o: ../HmdVector/VectorReader.h
+CMakeFiles/Hadamard.dir/main.cpp.o: ../Observables/Observable.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../ParticleSystem/ParticleSystem.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../QuantumMarbles/QuantumBilliardBall.h
 CMakeFiles/Hadamard.dir/main.cpp.o: ../main.cpp

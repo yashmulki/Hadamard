@@ -110,6 +110,12 @@
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h">
 			<Option target="Hadamard"/>
 		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Observables/Observable.h">
+			<Option target="Hadamard"/>
+		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp">
 			<Option target="Hadamard"/>
 		</Unit>
@@ -120,6 +126,12 @@
 			<Option target="Hadamard"/>
 		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp">
+			<Option target="Hadamard"/>
+		</Unit>
+		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.h">
 			<Option target="Hadamard"/>
 		</Unit>
 		<Unit filename="/Users/CosmosRedshift/projects/Hadamard/main.cpp">

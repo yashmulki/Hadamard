@@ -42,7 +42,7 @@ HmdVector HmdVector::scalarMultiply(Complex scalar) const {
     return HmdVector(result);
 }
 
-HmdVector HmdVector::action(HmdMatrix matrix) {
+HmdVector HmdVector::action(HmdMatrix matrix, bool left) {
     unsigned long myLen = elements.size();
     unsigned long matrixRows = matrix.elements.size();
     unsigned long matrixCols = matrix.elements.at(0).size();
@@ -53,6 +53,19 @@ HmdVector HmdVector::action(HmdMatrix matrix) {
         return HmdVector(elements);
     }
 
+    if (left) {
+        for (int matCol = 0; matCol < matrixCols; matCol++) {
+            Complex colVal = Complex(0,0);
+            for (int matRow = 0; matRow < matrixRows; matRow++) {
+                colVal = colVal + matrix.elements.at(matRow).at(matCol) * elements.at(matRow);
+            }
+            result.push_back(colVal);
+        }
+        return HmdVector(result);
+    }
+
+
+
     for (int matRow = 0; matRow < matrixRows; matRow++) {
         Complex rowVal = Complex(0,0);
         for (int i = 0; i < myLen; i++) {
@@ -60,7 +73,7 @@ HmdVector HmdVector::action(HmdMatrix matrix) {
         }
         result.push_back(rowVal);
     }
-    return result;
+    return HmdVector(result);
 }
 
 Complex HmdVector::operator*(HmdVector other) {

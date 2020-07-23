@@ -24,6 +24,12 @@ CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o
+ /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp
+ /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.h
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
@@ -31,6 +37,7 @@ CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
  /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp
  /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.h
+ /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.h
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
@@ -39,10 +46,19 @@ CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
  /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp
  /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
-CMakeFiles/Hadamard.dir/main.cpp.o
+CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o
  /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
  /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
  /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp
+ /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.h
+CMakeFiles/Hadamard.dir/main.cpp.o
+ /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.h
+ /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.h
+ /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.h
  /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.h
  /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.h
  /Users/CosmosRedshift/projects/Hadamard/main.cpp
