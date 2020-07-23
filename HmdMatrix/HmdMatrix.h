@@ -6,6 +6,7 @@
 #define HADAMARD_HMDMATRIX_H
 
 #include <vector>
+#include <map>
 #include <string>
 #include "../Complex/Complex.h"
 
@@ -28,7 +29,7 @@ namespace hmd {
         HmdMatrix adjoint();
         HmdMatrix tensorProduct(HmdMatrix other);
         HmdMatrix additiveInverse();
-
+        std::map<double, std::vector<Complex>> eignVecVal();
         std::string description() const;
 
         static HmdMatrix identity(int n);

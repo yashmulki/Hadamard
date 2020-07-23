@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7 -isystem /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include 
 

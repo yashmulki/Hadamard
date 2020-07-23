@@ -221,6 +221,21 @@ Hadamard_SOURCE_DIR:STATIC=/Users/CosmosRedshift/projects/Hadamard
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
+//Path to a program.
+Python2_EXECUTABLE:FILEPATH=/System/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7
+
+//Path to a file.
+Python2_INCLUDE_DIR:PATH=/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7
+
+//Path to a library.
+Python2_LIBRARY_DEBUG:FILEPATH=Python2_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+Python2_LIBRARY_RELEASE:FILEPATH=/System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib
+
+//Path to a file.
+Python2_NumPy_INCLUDE_DIR:PATH=/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include
+
 
 ########################
 # INTERNAL cache entries
@@ -361,6 +376,16 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Python2
+FIND_PACKAGE_MESSAGE_DETAILS_Python2:INTERNAL=[/System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib][/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7][/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include][cfound components:  Development NumPy Interpreter ][v2.7.16()]
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Python2_EXECUTABLE
+Python2_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Python2_INCLUDE_DIR
+Python2_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Python2_LIBRARY_DEBUG
+Python2_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Python2_LIBRARY_RELEASE
+Python2_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

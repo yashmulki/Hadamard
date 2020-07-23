@@ -16,12 +16,14 @@ namespace hmd {
     class HmdVector {
 
     private:
-        std::vector<Complex> elements;
+
     public:
+        std::vector<Complex> elements;
         HmdVector (std::vector<Complex> elements): elements(elements) {};
 
         HmdVector operator+(const HmdVector& b); // Adding in C^n
         HmdVector operator-(const HmdVector& b); // Adding in C^n
+        bool operator==(const HmdVector& b);
         HmdVector scalarMultiply(Complex scalar) const;
         HmdVector action(HmdMatrix matrix, bool left = false);
         Complex operator*(HmdVector other);

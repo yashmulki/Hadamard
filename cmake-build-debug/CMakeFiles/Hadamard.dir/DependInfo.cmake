@@ -19,6 +19,8 @@ set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/include/python2.7"
+  "/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/include"
   )
 
 # Targets to which this target links.

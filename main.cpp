@@ -13,12 +13,18 @@ int main() {
 
     hmd::MatrixReader matReader;
     hmd::HmdMatrix obs = matReader.readMatrix();
-    hmd::VectorReader vecReader;
-    hmd::HmdVector state = vecReader.readVector();
+//    hmd::VectorReader vecReader;
+//    hmd::HmdVector state = vecReader.readVector();
 
-    hmd::Observable observable(obs);
+//    hmd::Observable observable(obs);
 
-    std::cout << "The expected value is " << observable.expectedValue(state) << " and the variance is " << observable.variance(state) << std::endl;
+//    std::cout << "The expected value is " << observable.expectedValue(state) << " and the variance is " << observable.variance(state) << std::endl;
+
+    auto eigns = obs.eignVecVal();
+    for (auto const& x : eigns)
+    {
+        std::cout << " Eigenvalue:" << x.first << " EigenVector" << hmd::HmdVector(x.second).description();
+    }
 
     return 0;
 }

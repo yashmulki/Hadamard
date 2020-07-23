@@ -15,6 +15,7 @@ namespace hmd {
 
 
         Qubit(const HmdVector &state);
+        double transitionProbability(HmdVector toState) const;
 
         Complex transitionAmplitude(HmdVector toState) const;
 

@@ -3,9 +3,11 @@
 //
 
 #include "HmdMatrix.h"
+#include "../HmdVector/HmdVector.h"
 #include <string>
 #include <vector>
 #include <iostream>
+#include <random>
 
 using namespace hmd;
 
@@ -124,6 +126,7 @@ HmdMatrix HmdMatrix::tensorProduct(hmd::HmdMatrix other) {
 }
 
 bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
+    const double tolerance = 0.01;
     int rows = elements.size();
     int cols = elements.at(0).size();
 
@@ -137,7 +140,7 @@ bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
 
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++) {
-            if (elements.at(row).at(col) == b.elements.at(row).at(col)) {
+            if ((elements.at(row).at(col) - b.elements.at(row).at(col)).getReal() < tolerance && (elements.at(row).at(col) - b.elements.at(row).at(col)).getImaginary() < tolerance) {
                 // They are the same
             } else {
                 return false;
@@ -258,5 +261,74 @@ HmdMatrix HmdMatrix::identity(int n) {
         result.push_back(column);
     }
     return HmdMatrix(result);
+}
+
+std::map<double, std::vector<Complex>> HmdMatrix::eignVecVal() {
+
+    std::map<double, std::vector<Complex>> result;
+
+    // Remind user that input needs to be hermitian
+    if (!isHermitian()) {
+        std::cout << "Warning: finding eigenvectors is unsupported for non hermitian matrices" << std::endl;
+    }
+
+    // This is very inefficient, but until more optimization can be made this uses the power iteration technique to find eigenvalues
+    int num_eigen = elements.size();
+
+    // Find every eigenvalue
+    for (int i = 0; i < num_eigen; i++) {
+
+        // Generate a random vector
+        std::random_device rnd_device;
+        // Specify the engine and distribution.
+        std::mt19937 mersenne_engine {rnd_device()};  // Generates random integers
+        std::normal_distribution<double> dist(0.0, 1.0); // Normalized standard distribution
+
+        auto gen = [&dist, &mersenne_engine](){
+            return dist(mersenne_engine);
+        };
+
+        std::vector<double> templateVec(elements.size());
+        std::vector<Complex> vec;
+        generate(begin(templateVec), end(templateVec), gen);
+
+        for (int k = 0; k < elements.size(); k++) {
+            vec.push_back(Complex(templateVec.at(k), 0));
+        }
+
+        // Set the rows corresponding to discovered eigenvalues to zero to prevent convergence
+        for (int j = 0; j < i; j++) {
+            vec.at(j) = Complex(0,0);
+        }
+
+        // Do the power iteration process
+        HmdVector v = HmdVector(vec);
+        v = v.scalarMultiply(Complex(1/v.norm(),0));
+        HmdVector previous  = v;
+
+        while(true) {
+            previous = v;
+            v = v.action(HmdMatrix(elements));
+            v = v.scalarMultiply(Complex(1/v.norm(),0));
+            if (v == previous) {
+                // Found an eigenvector, need to find a corresponding eigenvalue
+                HmdVector origV = HmdVector(vec);
+                Complex eigenVal;
+
+                for (int row = 0; row < vec.size(); row++) {
+                    if (v.elements.at(row).getReal() != 0 || v.elements.at(row).getImaginary() != 0) {
+                        eigenVal = v.elements.at(row) / origV.elements.at(row);
+                    }
+                }
+
+                result.insert(std::pair<double, std::vector<Complex>>(eigenVal.getReal(), v.elements));
+                break;
+            }
+        }
+
+    }
+
+    return result;
+
 }
 

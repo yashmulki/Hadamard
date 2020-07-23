@@ -137,3 +137,22 @@ std::string HmdVector::description() {
     }
     return output;
 }
+
+bool HmdVector::operator==(const HmdVector &b) {
+    const double tolerance = 0.01;
+    int myLen = elements.size();
+    int otherLen = elements.size();
+
+    if (myLen != otherLen) {
+        return false;
+    }
+
+    for (int i = 0; i < myLen; i++) {
+        if ((elements.at(i) - b.elements.at(i)).getReal() < tolerance && (elements.at(i) - b.elements.at(i)).getImaginary() < tolerance) {
+            // They are the same
+        } else {
+            return false;
+        }
+    }
+    return true;
+}

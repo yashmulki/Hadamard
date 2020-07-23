@@ -3,6 +3,9 @@
 //
 
 #include "Qubit.h"
+#include <math.h>       /* pow */
+
+
 
 using namespace hmd;
 
@@ -14,4 +17,8 @@ Complex Qubit::transitionAmplitude(HmdVector toState) const {
 
 Qubit::Qubit(const HmdVector &state) : state(state) {
 
+}
+
+double Qubit::transitionProbability(HmdVector toState) const {
+    return pow((toState * state).getReal(), 2.0);
 }
