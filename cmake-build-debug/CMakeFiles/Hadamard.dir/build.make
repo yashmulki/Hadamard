@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/CosmosRedshift/projects/Hadamard
+CMAKE_SOURCE_DIR = /Users/CosmosRedshift/development/projects/Hadamard
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Hadamard.dir/depend.make
@@ -59,133 +59,159 @@ include CMakeFiles/Hadamard.dir/flags.make
 
 CMakeFiles/Hadamard.dir/main.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hadamard.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/main.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hadamard.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/main.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/main.cpp
 
 CMakeFiles/Hadamard.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/main.cpp > CMakeFiles/Hadamard.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/main.cpp > CMakeFiles/Hadamard.dir/main.cpp.i
 
 CMakeFiles/Hadamard.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/main.cpp -o CMakeFiles/Hadamard.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/main.cpp -o CMakeFiles/Hadamard.dir/main.cpp.s
 
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o: ../Complex/Complex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Complex/Complex.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/Complex/Complex.cpp
 
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/Complex/Complex.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp > CMakeFiles/Hadamard.dir/Complex/Complex.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/Complex/Complex.cpp > CMakeFiles/Hadamard.dir/Complex/Complex.cpp.i
 
 CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/Complex/Complex.cpp -o CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/Complex/Complex.cpp -o CMakeFiles/Hadamard.dir/Complex/Complex.cpp.s
 
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o: ../HmdVector/HmdVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/HmdVector.cpp
 
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp > CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/HmdVector.cpp > CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.i
 
 CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdVector/HmdVector.cpp -o CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/HmdVector.cpp -o CMakeFiles/Hadamard.dir/HmdVector/HmdVector.cpp.s
 
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o: ../HmdMatrix/HmdMatrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/HmdMatrix.cpp
 
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp > CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/HmdMatrix.cpp > CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.i
 
 CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/HmdMatrix.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/HmdMatrix.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/HmdMatrix.cpp.s
 
 CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o: ../HmdMatrix/MatrixReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/MatrixReader.cpp
 
 CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp > CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/MatrixReader.cpp > CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.i
 
 CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdMatrix/MatrixReader.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/HmdMatrix/MatrixReader.cpp -o CMakeFiles/Hadamard.dir/HmdMatrix/MatrixReader.cpp.s
 
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o: ../HmdVector/VectorReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/VectorReader.cpp
 
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp > CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/VectorReader.cpp > CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.i
 
 CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/HmdVector/VectorReader.cpp -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/HmdVector/VectorReader.cpp -o CMakeFiles/Hadamard.dir/HmdVector/VectorReader.cpp.s
 
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o: ../QuantumMarbles/QuantumBilliardBall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp
 
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp > CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp > CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.i
 
 CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp -o CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/QuantumMarbles/QuantumBilliardBall.cpp -o CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.s
 
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o: ../ParticleSystem/ParticleSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/ParticleSystem/ParticleSystem.cpp
 
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp > CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/ParticleSystem/ParticleSystem.cpp > CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.i
 
 CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/ParticleSystem/ParticleSystem.cpp -o CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/ParticleSystem/ParticleSystem.cpp -o CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s
 
 CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o: ../Qubit/Qubit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/Qubit/Qubit.cpp
 
 CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp > CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/Qubit/Qubit.cpp > CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.i
 
 CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/Qubit/Qubit.cpp -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/Qubit/Qubit.cpp -o CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.s
 
 CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: CMakeFiles/Hadamard.dir/flags.make
 CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o: ../Observables/Observable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o -c /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/Observables/Observable.cpp
 
 CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp > CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/Observables/Observable.cpp > CMakeFiles/Hadamard.dir/Observables/Observable.cpp.i
 
 CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/projects/Hadamard/Observables/Observable.cpp -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/Observables/Observable.cpp -o CMakeFiles/Hadamard.dir/Observables/Observable.cpp.s
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o: ../QuantumCircuit/QuantumCircuit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/QuantumCircuit.cpp
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/QuantumCircuit.cpp > CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.i
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/QuantumCircuit.cpp -o CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.s
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o: CMakeFiles/Hadamard.dir/flags.make
+CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o: ../QuantumCircuit/DefaultGates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o -c /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/DefaultGates.cpp
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/DefaultGates.cpp > CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.i
+
+CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CosmosRedshift/development/projects/Hadamard/QuantumCircuit/DefaultGates.cpp -o CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.s
 
 # Object files for target Hadamard
 Hadamard_OBJECTS = \
@@ -198,7 +224,9 @@ Hadamard_OBJECTS = \
 "CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o" \
 "CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o" \
 "CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o" \
-"CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
+"CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o" \
+"CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o" \
+"CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o"
 
 # External object files for target Hadamard
 Hadamard_EXTERNAL_OBJECTS =
@@ -213,10 +241,12 @@ Hadamard: CMakeFiles/Hadamard.dir/QuantumMarbles/QuantumBilliardBall.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o
+Hadamard: CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o
 Hadamard: CMakeFiles/Hadamard.dir/build.make
 Hadamard: /System/Library/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib
 Hadamard: CMakeFiles/Hadamard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Hadamard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Hadamard"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Hadamard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -229,6 +259,6 @@ CMakeFiles/Hadamard.dir/clean:
 .PHONY : CMakeFiles/Hadamard.dir/clean
 
 CMakeFiles/Hadamard.dir/depend:
-	cd /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/CosmosRedshift/projects/Hadamard /Users/CosmosRedshift/projects/Hadamard /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/CosmosRedshift/development/projects/Hadamard /Users/CosmosRedshift/development/projects/Hadamard /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles/Hadamard.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Hadamard.dir/depend
 

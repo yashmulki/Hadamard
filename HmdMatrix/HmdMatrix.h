@@ -32,6 +32,8 @@ namespace hmd {
         std::map<double, std::vector<Complex>> eignVecVal();
         std::string description() const;
 
+
+
         static HmdMatrix identity(int n);
 
     };

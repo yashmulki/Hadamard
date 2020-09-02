@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/CosmosRedshift/projects/Hadamard
+CMAKE_SOURCE_DIR = /Users/CosmosRedshift/development/projects/Hadamard
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/CosmosRedshift/projects/Hadamard/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/CosmosRedshift/development/projects/Hadamard/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -312,6 +312,60 @@ ParticleSystem/ParticleSystem.cpp.s:
 	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.s
 .PHONY : ParticleSystem/ParticleSystem.cpp.s
 
+QuantumCircuit/DefaultGates.o: QuantumCircuit/DefaultGates.cpp.o
+
+.PHONY : QuantumCircuit/DefaultGates.o
+
+# target to build an object file
+QuantumCircuit/DefaultGates.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o
+.PHONY : QuantumCircuit/DefaultGates.cpp.o
+
+QuantumCircuit/DefaultGates.i: QuantumCircuit/DefaultGates.cpp.i
+
+.PHONY : QuantumCircuit/DefaultGates.i
+
+# target to preprocess a source file
+QuantumCircuit/DefaultGates.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.i
+.PHONY : QuantumCircuit/DefaultGates.cpp.i
+
+QuantumCircuit/DefaultGates.s: QuantumCircuit/DefaultGates.cpp.s
+
+.PHONY : QuantumCircuit/DefaultGates.s
+
+# target to generate assembly for a file
+QuantumCircuit/DefaultGates.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.s
+.PHONY : QuantumCircuit/DefaultGates.cpp.s
+
+QuantumCircuit/QuantumCircuit.o: QuantumCircuit/QuantumCircuit.cpp.o
+
+.PHONY : QuantumCircuit/QuantumCircuit.o
+
+# target to build an object file
+QuantumCircuit/QuantumCircuit.cpp.o:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o
+.PHONY : QuantumCircuit/QuantumCircuit.cpp.o
+
+QuantumCircuit/QuantumCircuit.i: QuantumCircuit/QuantumCircuit.cpp.i
+
+.PHONY : QuantumCircuit/QuantumCircuit.i
+
+# target to preprocess a source file
+QuantumCircuit/QuantumCircuit.cpp.i:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.i
+.PHONY : QuantumCircuit/QuantumCircuit.cpp.i
+
+QuantumCircuit/QuantumCircuit.s: QuantumCircuit/QuantumCircuit.cpp.s
+
+.PHONY : QuantumCircuit/QuantumCircuit.s
+
+# target to generate assembly for a file
+QuantumCircuit/QuantumCircuit.cpp.s:
+	$(MAKE) -f CMakeFiles/Hadamard.dir/build.make CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.s
+.PHONY : QuantumCircuit/QuantumCircuit.cpp.s
+
 QuantumMarbles/QuantumBilliardBall.o: QuantumMarbles/QuantumBilliardBall.cpp.o
 
 .PHONY : QuantumMarbles/QuantumBilliardBall.o
@@ -423,6 +477,12 @@ help:
 	@echo "... ParticleSystem/ParticleSystem.o"
 	@echo "... ParticleSystem/ParticleSystem.i"
 	@echo "... ParticleSystem/ParticleSystem.s"
+	@echo "... QuantumCircuit/DefaultGates.o"
+	@echo "... QuantumCircuit/DefaultGates.i"
+	@echo "... QuantumCircuit/DefaultGates.s"
+	@echo "... QuantumCircuit/QuantumCircuit.o"
+	@echo "... QuantumCircuit/QuantumCircuit.i"
+	@echo "... QuantumCircuit/QuantumCircuit.s"
 	@echo "... QuantumMarbles/QuantumBilliardBall.o"
 	@echo "... QuantumMarbles/QuantumBilliardBall.i"
 	@echo "... QuantumMarbles/QuantumBilliardBall.s"

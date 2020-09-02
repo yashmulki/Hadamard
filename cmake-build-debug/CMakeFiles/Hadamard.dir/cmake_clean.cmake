@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Hadamard.dir/ParticleSystem/ParticleSystem.cpp.o"
   "CMakeFiles/Hadamard.dir/Qubit/Qubit.cpp.o"
   "CMakeFiles/Hadamard.dir/Observables/Observable.cpp.o"
+  "CMakeFiles/Hadamard.dir/QuantumCircuit/QuantumCircuit.cpp.o"
+  "CMakeFiles/Hadamard.dir/QuantumCircuit/DefaultGates.cpp.o"
   "Hadamard.pdb"
   "Hadamard"
 )

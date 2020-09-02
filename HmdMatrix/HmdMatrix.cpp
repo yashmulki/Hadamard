@@ -140,7 +140,7 @@ bool HmdMatrix::operator==(const hmd::HmdMatrix &b) {
 
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++) {
-            if ((elements.at(row).at(col) - b.elements.at(row).at(col)).getReal() < tolerance && (elements.at(row).at(col) - b.elements.at(row).at(col)).getImaginary() < tolerance) {
+            if (abs((elements.at(row).at(col) - b.elements.at(row).at(col)).getReal()) < tolerance && (abs(elements.at(row).at(col) - b.elements.at(row).at(col)).getImaginary()) < tolerance) {
                 // They are the same
             } else {
                 return false;
@@ -297,9 +297,8 @@ std::map<double, std::vector<Complex>> HmdMatrix::eignVecVal() {
         }
 
         // Set the rows corresponding to discovered eigenvalues to zero to prevent convergence
-        for (int j = 0; j < i; j++) {
-            vec.at(j) = Complex(0,0);
-        }
+        std::fill_n(vec.begin(), i, Complex(0, 0));
+
 
         // Do the power iteration process
         HmdVector v = HmdVector(vec);

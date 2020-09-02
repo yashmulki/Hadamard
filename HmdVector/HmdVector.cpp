@@ -5,6 +5,7 @@
 #include <string>
 #include <math.h>
 #include "HmdVector.h"
+#include <cstdlib>
 
 using namespace hmd;
 
@@ -148,7 +149,7 @@ bool HmdVector::operator==(const HmdVector &b) {
     }
 
     for (int i = 0; i < myLen; i++) {
-        if ((elements.at(i) - b.elements.at(i)).getReal() < tolerance && (elements.at(i) - b.elements.at(i)).getImaginary() < tolerance) {
+        if (abs((elements.at(i) - b.elements.at(i)).getReal()) < tolerance && abs((elements.at(i) - b.elements.at(i)).getImaginary()) < tolerance) {
             // They are the same
         } else {
             return false;
