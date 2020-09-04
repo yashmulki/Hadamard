@@ -42,7 +42,6 @@ void QuantumCircuit::runSimulation() {
         tensoredState.action(gate);
         std::cout << tensoredState.description();
     }
-
 }
 
 
